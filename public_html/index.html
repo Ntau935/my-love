@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Media Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header {
+      background: #4a90e2;
+      color: white;
+      padding: 2rem 1rem;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    .message {
+      margin: 2rem 1rem;
+      font-size: 1.1rem;
+      color: #333;
+    }
+    .popup-button {
+      background-color: #4a90e2;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      font-size: 1rem;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      margin-bottom: 1rem;
+    }
+    .popup-button:hover {
+      background-color: #357ac2;
+    }
+    .popup-message {
+      display: none;
+      margin-top: 1rem;
+      font-size: 1rem;
+      color: #444;
+    }
+    .media-section {
+      margin: 1rem auto;
+      max-width: 90%;
+    }
+    img, video {
+      width: 100%;
+      height: auto;
+      margin: 1rem 0;
+      border-radius: 10px;
+    }
+
+    /* Responsive styles */
+    @media (min-width: 600px) {
+      h1 {
+        font-size: 2.5rem;
+      }
+      .message {
+        font-size: 1.3rem;
+      }
+      .popup-button {
+        font-size: 1.1rem;
+      }
+      .media-section {
+        max-width: 800px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to My Media Page</h1>
+  </header>
+
+  <div class="message">
+    <p>This is for you My Beautiful girl </p>
+  </div>
+
+  <button class="popup-button" onclick="showMessage()">Click Me in the Morning☀️👑!</button>
+  <button class="popup-button" onclick="showMessage1()">Click Me in the day☀️!</button>
+  <button class="popup-button" onclick="showMessage2()">Click Me in the nigh🌙t!</button>
+  <button class="popup-button" onclick="showMessage3()">Click Me when said😔!</button>
+  
+  
+  <div id="popupMessage" class="popup-message">Good morning, my love 🌞❤️<br>
+Just a reminder that you are strong, beautiful, and capable of achieving anything you set your mind to<br>. I’m so proud of you and everything you do
+No matter what today brings, know that you’ve got this<br> and I’ve got you, always. Go shine like the queen you are. 👑💪 <br>
+I love you endlessly. 💖</div>
+  <div id="popupMessage1" class="popup-message">Hey my queen 👑❤️<br>
+Just checking in to remind you how amazing you are. I hope your day’s going well so far. <br>Keep pushing, keep smiling—you’re doing great!
+Remember, no stress is too big when you’ve got love <br>and purpose behind you.
+I can’t wait to see you later. Sending you all my love and positive energy 😘✨💌</div>
+  <div id="popupMessage2" class="popup-message">Good night, my love 🌙💖<br>
+As you close your eyes tonight, I just want you to know how proud I am of you. <br>You handled today like the strong, beautiful woman you are.
+May your dreams be peaceful and your heart be full. Rest well knowing you are deeply<br> loved and appreciated—always.
+Sleep tight, my queen. I’ll be dreaming of you. 😘🛌✨</div>
+  
+  <div id="popupMessage3" class="popup-message">My love, I know your heart feels heavy right now 💔…<br>
+But I need you to remember something important: You are not alone in this. I’m right here—your biggest fan, <br>your safe space, your partner through it all.
+It’s okay to feel down sometimes, but don’t let those feelings make you<br> forget how powerful, beautiful, and deeply loved you are.
+This moment will pass. And when it does,<br> you’ll rise even stronger, just like you always do.
+Take your time. Breathe.<br> Cry if you need to. And when you're ready, I’ll be here—arms open, heart full, waiting to remind you of the amazing woman you are. ❤️🌷</div>
+  <div class="media-section">
+    <h2>Pictures</h2>
+    <img src="gallary/my1.jpeg" alt="Sample Picture 1">
+    <img src="gallary/my2.jpeg" alt="Sample Picture 2">
+    <img src="gallary/my3.jpeg" alt="Sample Picture 3">
+    <img src="gallary/my4.jpeg" alt="Sample Picture 4">
+     <img src="gallary/my5.jpeg" alt="Sample Picture 5">
+    <img src="gallary/my11.jpeg" alt="Sample Picture 6">
+    <img src="gallary/my12.jpeg" alt="Sample Picture 7">
+    <img src="gallary/my13.jpeg" alt="Sample Picture 8">
+    <img src="gallary/my14.jpeg" alt="Sample Picture 9">
+    <img src="gallary/my15.jpeg" alt="Sample Picture 10">
+    <img src="gallary/my12.jpeg" alt="Sample Picture 7">
+    <img src="gallary/my13.jpeg" alt="Sample Picture 8">
+    <img src="gallary/my15.jpeg" alt="Sample Picture 10">
+     <img src="gallary/my16.jpeg" alt="Sample Picture 11">
+    <img src="gallary/my17.jpeg" alt="Sample Picture 12">
+
+    <h2>Video</h2>
+      <div class="message">
+    <p>lock how beautiful you're my hosh-kharamaima </p>
+  </div>
+    <video controls>
+      <source src="gallary/fist.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="message">
+    <p>lock how beautiful you're My Queen</p>
+  </div>
+    <video controls>
+      <source src="gallary/second.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <script>
+ 
+       function showMessage() {
+      document.getElementById("popupMessage").style.display = "block";
+    }  
+    function showMessage1() {
+      document.getElementById("popupMessage1").style.display = "block";
+    }
+      function showMessage2() {
+      document.getElementById("popupMessage2").style.display = "block";
+    }
+      function showMessage3() {
+      document.getElementById("popupMessage3").style.display = "block";
+    }
+  </script>
+
+</body>
+</html>
